@@ -38,6 +38,22 @@ body,h1,h2,h3,h4,p,ul,li {
     line-height: 21px;
     list-style: none;
     margin-left: 40px;
+    cursor: pointer;
+    position: relative;
+}
+
+.text:hover {
+    color:#FFFFFF;
+}
+
+.text:hover::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    left: 0;
 }
 
 .menu {
@@ -140,4 +156,28 @@ body,h1,h2,h3,h4,p,ul,li {
     margin-right: 30px;
     margin-top: 40px;
     margin-bottom: 54px;
+}
+.menu-container__description_real {
+    position: relative;
+}
+
+.menu-container__description_real::after {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background: #1D92FF;
+    top: 67px;
+    left: 4px;
+}
+
+.menu-container__description_real::before {
+    content: '';
+    position: absolute;
+    width: 66px;
+    height: 3px;
+    background: #FFFFFF;
+    top: 67px;
+    right: 3px;
+    z-index: 999;
 }
