@@ -1,0 +1,143 @@
+body,h1,h2,h3,h4,p,ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #002547;
+    padding: 50px 231px 0 231px;
+}
+
+.logo {
+    width: 111px;
+    height: 42px;
+    background: url('./Subtract.png') no-repeat; 
+    font-size: 16px;
+    padding-left: 56px;
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Poppins;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 21px;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+}
+
+.text:first-child {
+    margin-left: 0;
+}
+
+.btn {
+    color:#1D92FF;
+    font-family: Poppins;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 23px;
+    height: 53px;
+    width: 147px;
+}
+
+.menu-container {
+    padding-top: 131px;
+}
+
+.menu-container__title {
+    color: #1D92FF;
+    font-family: Poppins;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.menu-container__description{
+    font-family: Poppins;
+    font-size: 60px;
+    line-height: 84px;
+    color: #FFFFFF;
+    max-width: 567px;
+}
+
+.menu-container__description_real {
+    color: #1D92FF;
+}
+
+.menu-container__description_saas {
+    color: #1D92FF;
+}
+
+.menu-container__wrapper {
+    display: flex;
+}
+
+.menu-container__description2 {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.6);
+    max-width: 400px;
+    margin-top: 25px;
+}
+
+.menu-container__description3 {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.6);
+    max-width: 440px;
+}
+
+.menu-container__btn_white {
+    color:#1D92FF;
+    font-family: Poppins;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 23px;
+    height: 53px;
+    width: 205px;
+}
+
+.menu-container__btn_blue {
+    color:#FFFFFF;
+    background: #002547;;
+    font-family: Poppins;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 23px;
+    height: 53px;
+    width: 205px;
+    border: 1px solid #1D92FF;
+}
+
+.menu-container__btn {
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 54px;
+}
