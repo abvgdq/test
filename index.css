@@ -78,6 +78,7 @@ body,h1,h2,h3,h4,p,ul,li {
     line-height: 23px;
     height: 53px;
     width: 147px;
+    cursor: pointer;
 }
 
 .menu-container {
@@ -87,10 +88,12 @@ body,h1,h2,h3,h4,p,ul,li {
 .menu-container__title {
     color: #1D92FF;
     font-family: Poppins;
-    font-style: Regular;
     font-size: 16px;
     line-height: 26px;
     text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.05em;
 }
 
 .menu-container__description{
@@ -122,6 +125,30 @@ body,h1,h2,h3,h4,p,ul,li {
     margin-top: 25px;
 }
 
+.menu-container__description_E-Commerce {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 29px;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-container__description_E-Commerce:hover {
+    color: #FFFFFF;
+}
+
+.menu-container__description_E-Commerce:hover:after {
+    content: '';
+    position: absolute;
+    width: 119px;
+    height: 1px;
+    background: #FFFFFF;
+    top: 22px;
+    right: 1px;
+}
+    
+
+
 .menu-container__description3 {
     font-family: Poppins;
     font-size: 16px;
@@ -130,26 +157,30 @@ body,h1,h2,h3,h4,p,ul,li {
     max-width: 440px;
 }
 
+.menu-container__description_MasterCard {
+    color: #FFFFFF;
+}
+
 .menu-container__btn_white {
     color:#1D92FF;
     font-family: Poppins;
-    font-style: Medium;
     font-size: 18px;
     line-height: 23px;
     height: 53px;
     width: 205px;
+    cursor: pointer;
 }
 
 .menu-container__btn_blue {
     color:#FFFFFF;
-    background: #002547;;
+    background: #002547;
     font-family: Poppins;
-    font-style: Medium;
     font-size: 18px;
     line-height: 23px;
     height: 53px;
     width: 205px;
-    border: 1px solid #1D92FF;
+    border: 2px solid #072D51;
+    cursor: pointer;
 }
 
 .menu-container__btn {
@@ -181,3 +212,4 @@ body,h1,h2,h3,h4,p,ul,li {
     right: 3px;
     z-index: 999;
 }
+
