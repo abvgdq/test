@@ -28,6 +28,7 @@ body,h1,h2,h3,h4,p,ul,li {
     font-size: 22px;
     line-height: 33px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .text {
