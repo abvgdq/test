@@ -8,16 +8,27 @@ body,h1,h2,h3,h4,p,ul,li {
 }
 
 .header {
-    max-width: 1600px;
-    margin: 0 auto;
     background: #002547;
-    padding: 50px 231px 0 231px;
+}
+
+.header__wrapper {
+    background: url('./img/img-header/Group\ 365.png') no-repeat;
+    padding-right: 231px;
+    padding-left: 231px;
+    background-position: 851px;
+    background-size: 737px;
+    background-position-y: 20px;
+}
+
+.wrapper {
+    max-width: 1600px; 
+    margin: 0 auto;
 }
 
 .logo {
     width: 111px;
     height: 42px;
-    background: url('./Subtract.png') no-repeat; 
+    background: url('./img/img-header/Subtract.png') no-repeat; 
     font-size: 16px;
     padding-left: 56px;
     display: flex;
@@ -61,6 +72,7 @@ body,h1,h2,h3,h4,p,ul,li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 50px;
 }
 
 .list {
@@ -156,6 +168,7 @@ body,h1,h2,h3,h4,p,ul,li {
     line-height: 22px;
     color: rgba(255, 255, 255, 0.6);
     max-width: 440px;
+    padding-bottom: 147px;
 }
 
 .menu-container__description_MasterCard {
@@ -213,4 +226,3 @@ body,h1,h2,h3,h4,p,ul,li {
     right: 3px;
     z-index: 999;
 }
-
