@@ -1,0 +1,95 @@
+.electric {
+    background: #FCFCFC;
+}
+
+.menu-container__title_center {
+    text-align: center;
+}
+
+.electric__title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 135%;
+    text-align: center;
+    color: #000000;
+}
+
+.electric_discription {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.electric_box {
+    background: url("./img/img-electric/Rectangle\ 35.png") no-repeat;
+    max-width: 1149px;
+    height: 603px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 68px;
+    padding-right: 68px;
+}
+
+.electric-card {
+    max-width: 226px;
+    margin: 55px
+}
+
+.electric-card__logo {
+    width: 90px;
+    height: 90px;
+    background: url("./img/img-electric/Group.svg") no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.electric-card__img {
+    width: 24px;
+    height: 24px;
+    margin-left: -3px;
+    margin-top: -3px;
+}
+
+.electric-card__img_vector12 {
+    width: 24px;
+    height: 16px;
+    margin-left: -3px;
+    margin-top: -3px;
+}
+
+.electric-card__title {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #000000;
+}
+.electric-card__discription {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: rgba(1, 7, 13, 0.7)
+}
+
+
+
