@@ -1,0 +1,168 @@
+.calm {
+    background: #FCFCFC;
+}
+
+.calm_wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 1065;
+    margin: 0 auto;
+}
+
+.calm__title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 135%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #01070D;
+    padding-top: 228px;
+    padding-bottom: 15px;
+}
+
+.calm__discription {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: rgba(1, 7, 13, 0.7);
+    padding-bottom: 60px;
+}
+
+.card-calm {
+    width: 362px;
+    height: 537px;
+    background: #FFFFFF;
+    border: 1px solid #E6F2FC;
+    border-radius: 10px;
+}
+
+.card-calm__student {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #01070D;
+    text-align: center;
+}
+
+.card-calm__amet {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 160%;
+    text-align: center;
+    color: rgba(1, 7, 13, 0.7);
+    max-width: 181px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.card-calm__price {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 135%;
+    color: #01070D;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
+
+.card-calm__switch {
+    display: flex;
+    max-width: 222px;
+    height: 36px;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #FAFAFA;
+    border: 0.5px solid rgba(1, 7, 13, 0.05);
+    border-radius: 18px;
+    margin-bottom: 27px;
+}
+
+.card-calm__monthiy {
+    width: 110px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 4px 2px 38px rgba(0, 0, 0, 0.02);
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 160%;
+    color: #01070D;
+}
+
+.card-calm__annually{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 160%;
+    color: rgba(1, 7, 13, 0.4);
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.card-calm__checkbox {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 245px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.card-calm__checkbox-img {
+    width: 22px;
+    height: 22px;
+    margin-right: 17px;
+}
+
+.card-calm__checkbox-discription {
+    max-width: 206px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.card-calm__btn {
+    width: 208px;
+    height: 43px;
+    background: #1D92FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #66BFFB;
+}
+
+.card-calm__btn-help {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
