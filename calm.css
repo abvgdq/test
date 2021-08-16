@@ -2,12 +2,6 @@
     background: #FCFCFC;
 }
 
-.calm_wrapper {
-    display: flex;
-    justify-content: center;
-    max-width: 1065;
-    margin: 0 auto;
-}
 
 .calm__title {
     font-family: Poppins;
@@ -31,6 +25,13 @@
     text-align: center;
     color: rgba(1, 7, 13, 0.7);
     padding-bottom: 60px;
+}
+
+.calm__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 140px;
 }
 
 .card-calm {
@@ -129,6 +130,8 @@
     width: 22px;
     height: 22px;
     margin-right: 17px;
+    background: #FFFFFF;
+    border-radius: 11px;
 }
 
 .card-calm__checkbox-discription {
@@ -164,5 +167,131 @@
     display: flex;
     justify-content: center;
     padding-top: 12px;
+}
+
+.card-calm_pro-height {
+    height: 613px;
+    background: linear-gradient(180deg, #1D92FF 0%, #002648 0.01%, #002547 100%);
+    box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+.card-calm__student_pro {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.card-calm__amet_color {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.card-calm__price_thrity {
+    color: #FFFFFF;
+}
+
+.card-calm__switch_back {
+    background: #193B5A;
+    border: 1px solid #5E758A;
+}
+
+.card-calm__monthiy_blue {
+    background: #1D92FF;
+    color: #FFFFFF; 
+    border: 1px solid #AEBAC4;
+}
+
+.card-calm__annually_dark-blue {
+     color: #FFFFFF;
+}
+
+.card-calm__checkbox-discription_wht {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.card-calm__btn_color {
+    background: #FFFFFF;
+    color: #1D92FF;
+    border: #FFFFFF;
+}
+
+.dummy {
+    background: #F0F6FC;
+    width: 1250px;
+    height: 219px;
+    margin-top: 140px;
+    right: 15px;
+    position: relative;
+    z-index: 999;
+    margin: 0 auto;
+}
+
+.dummy__content {
+    position: absolute;
+    width: 1250px;
+    height: 206px;
+    background: url('./img/img-dummy/Mask\ Group.png') no-repeat, #002648;
+    top: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dummy__content_lorem-contrary {
+    padding-right: 200px;
+    padding-left: 55px;
+}
+
+.dummy__content_title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.dummy__content_discription {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.9;
+    
+}
+
+
+.dummy__content_e-mail {   
+    width: 460px;
+    height: 62px;
+    left: 913px;
+    top: 4736.05px;
+    background: rgba(255, 255, 255, 0.7);
+    opacity: 0.5;
+    border-radius: 31px;
+    background: transparent;
+    border: 2px solid #597288
+}
+
+.dummy__content_title {
+    padding-bottom: 25px;
+}
+
+.dummy__content_btn {
+    width: 76px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+.footer {
+    height: 376px;
+    background: #070C11;
+    opacity: 0.95;
 }
 
