@@ -217,6 +217,10 @@
     border: #FFFFFF;
 }
 
+.card-calm__checkbox-discription_black {
+    opacity: 1;
+}
+
 .dummy {
     background: #F0F6FC;
     width: 1250px;
