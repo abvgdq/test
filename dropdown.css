@@ -36,7 +36,7 @@
 
 .card {
     max-width: 472px;
-    height:157px;
+    min-height: 50px;
     border-radius: 10px;
     background: #FFFFFF;
     padding-top: 18px;
@@ -63,6 +63,10 @@
     padding-left: 11px;
 }
 
+.hidden {
+    display: none;
+}
+
 .card__link {
     color: #A2D2FF;
 }
@@ -71,6 +75,11 @@
     position: absolute;
     right: 24px;
     top: 29px;
+    cursor: pointer;
+}
+
+.rotate {
+    transform: rotate(180deg);
 }
 
 .card-opened {
@@ -193,4 +202,5 @@
 .section-imagine {
     width: 900px;
 }
+
 

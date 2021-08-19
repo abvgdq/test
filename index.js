@@ -1,14 +1,14 @@
-const block1 = document.querySelector(".one");
-const block2 = document.querySelector(".two");
-const block3 = document.querySelector(".three");
-
-
-block1.addEventListener("click", function(){
-    console.log(1)
-})
-block2.addEventListener("click", function(){
-    console.log(2)
-})
-block3.addEventListener("click", function(){
-    console.log(3)
+const arrow = document.querySelector('.card__img');
+const text = document.querySelector('.card__discription');
+let isRotate = false;
+arrow.addEventListener('click', function(){
+    if(!isRotate){
+        arrow.classList.remove('rotate')  
+        text.classList.remove('hidden')
+        isRotate = true;    
+    } else{
+        arrow.classList.add('rotate')
+        text.classList.add('hidden')
+        isRotate = false
+    }   
 })

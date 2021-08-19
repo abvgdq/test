@@ -19,6 +19,9 @@
 <body>
 <header class="header">
     <div class="wrapper header__wrapper">
+        <div class="test2">
+
+        </div>
         <div class="menu">
             <div class="logo">Base</div>
             <ul class="list">
@@ -127,10 +130,10 @@
                 <h3 class="card__title">
                     Review the facts Saas is the best?
                 </h3>
-                <p class="card__discription">
+                <p class="card__discription hidden">
                     Lorem <a href="#" class="card__link">ipsum dolor sit amet</a> consectetur adipiscing elit sed do eiusmod tempor.Lorem consectetur adipiscing elit sed do eiusmod tempor.
                 </p>
-                <img src="./img/img-head/Vector.png" class="card__img" alt="Vector">
+                <img src="./img/img-head/Vector.png" class="card__img rotate" alt="Vector">
             </div>
             <div class="card-opened"> 
                 <h3 class="card-opened__title">
@@ -278,14 +281,15 @@
                 <p class="card-calm__price">
                     $15
                 </p>
-                <div class="card-calm__switch">
-                    <div class="card-calm__monthiy">
+                <input type="checkbox" class="input-checkbox" id="input-check">
+                <label for="input-check" class="input-label">
+                    <span class="card-calm__monthiy">
                         Monthiy
-                    </div>
-                    <div class="card-calm__annually">
+                    </span>
+                    <span class="card-calm__annually">
                         Annually
-                    </div>
-                </div>
+                    </span>
+                </label>
                 <div class="card-calm__checkbox"> 
                     <img src="./img/img-calm/Group 325.png"  alt="Group 325.png" class="card-calm__checkbox-img">
                     <p class="card-calm__checkbox-discription">
@@ -405,8 +409,8 @@
                 Contrary to popular belief, Lorem Ipsum is not simply random text.It has root          
             </p>
         </div>
-          <div>
-            <input type="text" class="dummy__content_e-mail">
+          <div class="dummy__content_input">
+            <input type="text" placeholder="Enter Email Adress" class="dummy__content_e-mail">
             <button class="dummy__content_btn">
                 <img src="./img/img-dummy/Group 341.png" alt="Group 341.png">
             </button>
@@ -416,13 +420,74 @@
     </section>
 
     <footer class="footer">
-
+       <div class="wrapper footer__wrapper">
+        <div class="footer__main">
+            <div>
+                <div class="logo">Base</div> 
+                <p class="footer__common-text footer__common-help">
+                    Lorem Ipsum Dolor Sit Amet,
+                </p>
+                <p class="footer__common-text footer__common-wrap"> 
+                    Consectetur Adipiscing.
+                </p>
+            </div>
+            <div class="footer__common-padding_cstmrs">
+                <h3 class="footer__common-title">
+                  Customers  
+                </h3>
+                <p class="footer__common-text">
+                    Buyer
+                </p>
+                <p class="footer__common-text">
+                    Supplier
+                </p>
+            </div>
+            <div>
+                <h3 class="footer__common-title">
+                    Company
+                </h3>
+                <p class="footer__common-text">
+                    About Us
+                </p>
+                <p class="footer__common-text">
+                    Careers                
+                </p> 
+                <p class="footer__common-text">
+                    Contact Us
+                </p>             
+            </div>
+            <div>
+                <h3 class="footer__common-title">
+                    Further Infomation
+                </h3>
+                <p class="footer__common-text">
+                    Terms &Conditions
+                </p>
+                <p class="footer__common-text">
+                    Privacy Policy
+                </p>
+            </div>
+            <div>
+                <h3 class="footer__common-title footer__common-follow">
+                    Follow Us
+                </h3>
+                <input type="text" placeholder="Email Adress" class="footer__content-adress">
+              <div class="footer__common-picture"> 
+                <img src="./img/img-dummy/face.png" class="footer__common-img" alt="face.png">
+                <img src="./img/img-dummy/twt.png" class="footer__common-img" alt="twt.png">
+                <img src="./img/img-dummy/in.png" class="footer__common-img" alt="in.png">
+              </div>  
+            </div>
+        </div>
+       </div> 
     </footer>
     
 
     
   
+<script src="./index.js">
 
+</script>
     </body>
 
     </html>

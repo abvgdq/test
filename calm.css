@@ -279,18 +279,37 @@
     opacity: 0.5;
     border-radius: 31px;
     background: transparent;
-    border: 2px solid #597288
+    border: 2px solid #597288;
+    padding-left: 40px;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .dummy__content_title {
     padding-bottom: 25px;
 }
 
+.dummy__content_input {
+    position: relative;
+}
+
+.dummy__content_e-mail::placeholder {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+} 
+
 .dummy__content_btn {
     width: 76px;
     height: 42px;
     background: #FFFFFF;
     border-radius: 25px;
+    position: absolute;
+    right: 16px;
+    top: calc(50% - 21px);
+    cursor: pointer;
 }
 
 .footer {
@@ -299,3 +318,127 @@
     opacity: 0.95;
 }
 
+.footer__wrapper {
+    padding-left: 227px;
+    padding-top: 126px;
+}
+
+.footer__main {
+    display: flex;
+}
+
+.footer__common-help {
+    padding-top: 31px;
+    padding-right: 139px;
+}
+
+.footer__common-title {
+    padding-right: 81px;
+    padding-bottom: 30px;
+}
+
+.footer__common-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    padding-right: 125px;
+}
+
+.footer__common-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-right: 126px;
+    padding-bottom: 10px;
+}
+
+.footer__common-wrap {
+    padding-right: 158px;
+}
+
+.footer__common-follow {
+    padding-bottom: 10px;
+    padding-right: 141px;
+}
+
+.footer__content-adress {
+    width: 213px;
+    height: 38px;
+    left: 913px;
+    top: 4736.05px;
+    background: rgba(255, 255, 255, 0.7);
+    opacity: 0.5;
+    border-radius: 31px;
+    background: transparent;
+    border: 2px solid #597288;
+    padding-left: 40px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer_content-adress::placeholder {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 160%;
+    color: #FFFFFF;
+} 
+
+.footer__common-picture {
+    padding-top: 20px;
+}
+
+.footer__common-img {
+    width: 30px;
+    height: 30px;
+    background: #050C12;
+}
+
+.input-checkbox {
+    display: none;
+}
+
+.input-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 222px;
+    height: 36px;
+    margin: 0 auto;
+    background: #FAFAFA;
+    border: 0.5px solid rgba(1, 7, 13, 0.05);
+    border-radius: 18px;
+    margin-bottom: 27px;
+    cursor: pointer;
+    position: relative;
+}
+
+.input-label::after {
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    box-shadow: 4px 2px 38px rgb(0 0 0 / 2%);
+    border-radius: 18px;
+    background: #FFFFFF;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+span {
+    z-index: 9;
+}
+
+.input-checkbox:checked~.input-label::after {
+    left: 108px;
+    transition: 0.5s;
+}
